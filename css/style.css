@@ -143,21 +143,58 @@ nav {
         font-weight: 700;
         line-height: 4.3rem;
     }
-    .banner-img{
-        width: 95%;
-        margin: 1rem auto;
-    }
-
     /* ------sponsors section------ */
 .sponsors-container{
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 
 }
 .sponsors-icons{
-    width: 40%;
-    border: 0.25rem solid grey;
+    border: 0.1rem solid grey;
     margin: 1.5rem auto;
     border-radius: 1rem;
     padding: 1rem;
+} 
 }
+
+/* ------Responsive for medium device------ */
+@media screen and (min-width:577px) and (max-width:992px){
+    /* ------navbar section------ */
+    nav {
+
+        flex-direction: column-reverse;
+    }
+    .nav-bar ul{
+        gap: 1rem;
+    }
+
+    /* ------Banner section------ */
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .banner-content {
+        width: 95%;
+        padding: 1rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .banner-content h2 {
+        color: #3A3A3A;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 4.3rem;
+    }
+    /* ------sponsors section------ */
+.sponsors-container{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+}
+.sponsors-icons{
+    border: 0.1rem solid grey;
+    margin: 1.5rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+} 
 }
