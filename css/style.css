@@ -140,8 +140,7 @@ nav {
     .banner-content h2 {
         color: #3A3A3A;
         font-size: 2rem;
-        font-weight: 700;
-        line-height: 4.3rem;
+        line-height: 2.3rem;
     }
     /* ------sponsors section------ */
 .sponsors-container{
@@ -150,7 +149,6 @@ nav {
 
 }
 .sponsors-icons{
-    border: 0.1rem solid grey;
     margin: 1.5rem auto;
     border-radius: 1rem;
     padding: 1rem;
@@ -192,7 +190,6 @@ nav {
 
 }
 .sponsors-icons{
-    border: 0.1rem solid grey;
     margin: 1.5rem auto;
     border-radius: 1rem;
     padding: 1rem;
