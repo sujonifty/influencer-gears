@@ -1,0 +1,110 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* -----Sharing style------ */
+.description {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin:1.5rem 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn-primary {
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #E02C6D;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* ------Header section------ */
+
+/* ------navbar section------ */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    opacity: 0.8;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nav-bar ul li a:hover {
+    border: 0.1rem solid #3A3A3A;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    opacity: 1;
+}
+
+.logo {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ------Banner section------ */
+.banner-container {
+    width: 82.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.banner-img {
+    background-image: url("../images/Circle design.svg");
+    background-size: cover;
+}
+
+.banner-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-content {
+    width: 40%;
+    padding: 2rem;
+}
+
+.banner-content h2 {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.3rem;
+}
+
+/* ------sponsors section------ */
+.sponsors-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem auto;
+
+}
+.sponsors-icons img{
+    width: 100%;
+}
